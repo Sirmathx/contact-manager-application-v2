@@ -4,7 +4,8 @@ import Home from "./components/Home";
 import SignUp from "./components/signUp/SignUp";
 import NotFound from "./components/NotFound/NotFound";
 import Login from "./components/Login/Login";
-import Contact from "./components/Contact/Contact"
+import Contact from "./components/Contact/Contact";
+import Profile from "./components/profile/Profile";
 
 function App() {
   return ( 
@@ -14,6 +15,7 @@ function App() {
       <Route path="/signup" element={ <SignUp/>  } />
       <Route path="/login" element={ <Login/>  } />
       <Route path="/contact" element={ <Contact/>  } />
+      <Route path="/profile" element={ <Profile/>  } />
       
 
       <Route path="*" element={<NotFound />} />
