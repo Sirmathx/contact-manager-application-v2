@@ -50,16 +50,16 @@ const profile = () => {
                     <FaPhone/>
                     07015484344</div>    
                  <div className='contact_box_action_grp'>
-                <button className='edit_btn'>
+                <Link to="/profile/contact/edith" className='edit_btn'>
                     <FaEdit/>
                     Edit
-                </button>
+                </Link>
                 <button className='delete_btn'>
                     <FaTrash/>
                     delete
                 </button>
                 </div>    
-                </div>    
+                </div> 
                 <div className='contact_box'>
                  <div className='contact_box_item'>mathias unwaba</div>    
                  <div className='contact_box_item'>
@@ -71,16 +71,16 @@ const profile = () => {
                     <FaPhone/>
                     07015484344</div>    
                  <div className='contact_box_action_grp'>
-                <button className='edit_btn'>
+                <Link to="/profile/contact/edith" className='edit_btn'>
                     <FaEdit/>
                     Edit
-                </button>
+                </Link>
                 <button className='delete_btn'>
                     <FaTrash/>
                     delete
                 </button>
                 </div>    
-                </div>    
+                </div> 
                 <div className='contact_box'>
                  <div className='contact_box_item'>mathias unwaba</div>    
                  <div className='contact_box_item'>
@@ -92,16 +92,16 @@ const profile = () => {
                     <FaPhone/>
                     07015484344</div>    
                  <div className='contact_box_action_grp'>
-                <button className='edit_btn'>
+                <Link to="/profile/contact/edith" className='edit_btn'>
                     <FaEdit/>
                     Edit
-                </button>
+                </Link>
                 <button className='delete_btn'>
                     <FaTrash/>
                     delete
                 </button>
                 </div>    
-                </div>    
+                </div> 
                 <div className='contact_box'>
                  <div className='contact_box_item'>mathias unwaba</div>    
                  <div className='contact_box_item'>
@@ -113,16 +113,16 @@ const profile = () => {
                     <FaPhone/>
                     07015484344</div>    
                  <div className='contact_box_action_grp'>
-                <button className='edit_btn'>
+                <Link to="/profile/contact/edith" className='edit_btn'>
                     <FaEdit/>
                     Edit
-                </button>
+                </Link>
                 <button className='delete_btn'>
                     <FaTrash/>
                     delete
                 </button>
                 </div>    
-                </div>    
+                </div> 
                 <div className='contact_box'>
                  <div className='contact_box_item'>mathias unwaba</div>    
                  <div className='contact_box_item'>
@@ -134,16 +134,16 @@ const profile = () => {
                     <FaPhone/>
                     07015484344</div>    
                  <div className='contact_box_action_grp'>
-                <button className='edit_btn'>
+                <Link to="/profile/contact/edith" className='edit_btn'>
                     <FaEdit/>
                     Edit
-                </button>
+                </Link>
                 <button className='delete_btn'>
                     <FaTrash/>
                     delete
                 </button>
                 </div>    
-                </div>    
+                </div> 
                 <div className='contact_box'>
                  <div className='contact_box_item'>mathias unwaba</div>    
                  <div className='contact_box_item'>
@@ -155,16 +155,16 @@ const profile = () => {
                     <FaPhone/>
                     07015484344</div>    
                  <div className='contact_box_action_grp'>
-                <button className='edit_btn'>
+                <Link to="/profile/contact/edith" className='edit_btn'>
                     <FaEdit/>
                     Edit
-                </button>
+                </Link>
                 <button className='delete_btn'>
                     <FaTrash/>
                     delete
                 </button>
                 </div>    
-                </div>    
+                </div> 
                 <div className='contact_box'>
                  <div className='contact_box_item'>mathias unwaba</div>    
                  <div className='contact_box_item'>
@@ -176,16 +176,16 @@ const profile = () => {
                     <FaPhone/>
                     07015484344</div>    
                  <div className='contact_box_action_grp'>
-                <button className='edit_btn'>
+                <Link to="/profile/contact/edith" className='edit_btn'>
                     <FaEdit/>
                     Edit
-                </button>
+                </Link>
                 <button className='delete_btn'>
                     <FaTrash/>
                     delete
                 </button>
                 </div>    
-                </div>    
+                </div> 
                 <div className='contact_box'>
                  <div className='contact_box_item'>mathias unwaba</div>    
                  <div className='contact_box_item'>
@@ -197,16 +197,16 @@ const profile = () => {
                     <FaPhone/>
                     07015484344</div>    
                  <div className='contact_box_action_grp'>
-                <button className='edit_btn'>
+                <Link to="/profile/contact/edith" className='edit_btn'>
                     <FaEdit/>
                     Edit
-                </button>
+                </Link>
                 <button className='delete_btn'>
                     <FaTrash/>
                     delete
                 </button>
                 </div>    
-                </div>    
+                </div> 
                 <div className='contact_box'>
                  <div className='contact_box_item'>mathias unwaba</div>    
                  <div className='contact_box_item'>
@@ -218,16 +218,16 @@ const profile = () => {
                     <FaPhone/>
                     07015484344</div>    
                  <div className='contact_box_action_grp'>
-                <button className='edit_btn'>
+                <Link to="/profile/contact/edith" className='edit_btn'>
                     <FaEdit/>
                     Edit
-                </button>
+                </Link>
                 <button className='delete_btn'>
                     <FaTrash/>
                     delete
                 </button>
                 </div>    
-                </div>    
+                </div> 
                 <div className='contact_box'>
                  <div className='contact_box_item'>mathias unwaba</div>    
                  <div className='contact_box_item'>
@@ -239,16 +239,18 @@ const profile = () => {
                     <FaPhone/>
                     07015484344</div>    
                  <div className='contact_box_action_grp'>
-                <button className='edit_btn'>
+                <Link to="/profile/contact/edith" className='edit_btn'>
                     <FaEdit/>
                     Edit
-                </button>
+                </Link>
                 <button className='delete_btn'>
                     <FaTrash/>
                     delete
                 </button>
                 </div>    
-                </div>    
+                </div> 
+
+              
               
                
             </div>  
