@@ -52,4 +52,4 @@ const EditProfie = () => {
   )
 }
 
-export default EditProfie
+export default EditProfie;

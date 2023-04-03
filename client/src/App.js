@@ -11,6 +11,8 @@ import Settings from "./components/Settings/Settings";
 import ChangePassword from "./components/profile/ChangePassword";
 import DeleteAccount from "./components/profile/DeleteAccount";
 import EditProfie from "./components/profile/EditProfie";
+import Service from "./components/Service/Service";
+import ContactUs from "./components/ContactUs/ContactUs";
 
 function App() {
   return ( 
@@ -19,6 +21,8 @@ function App() {
        <Route path="/" element={<Home />} />
       <Route path="/signup" element={ <SignUp/>  } />
       <Route path="/login" element={ <Login/>  } />
+      <Route path="/service" element={ <Service/>  } />
+      <Route path="/contact" element={ <ContactUs/>  } />
 
 
       <Route path="/profile" element={ <Profile/>  } />
@@ -30,6 +34,8 @@ function App() {
       <Route path="/profile/password" element={ <ChangePassword/>  } />
       <Route path="/profile/delete-account" element={ <DeleteAccount/>  } />
       <Route path="/profile/edit" element={ <EditProfie/>  } />
+   
+
       
 
       <Route path="*" element={<NotFound />} />
